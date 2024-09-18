@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cht3lmkasivmt"]
+
+[ext_resource type="Script" path="res://Base.cs" id="1_2e5s4"]
+[ext_resource type="PackedScene" uid="uid://c67ufj1h7gebg" path="res://Line.tscn" id="2_42vjs"]
+[ext_resource type="PackedScene" uid="uid://do8jigqc1t4d7" path="res://Row.tscn" id="3_iann1"]
+
+[node name="Base" type="Node2D"]
+script = ExtResource("1_2e5s4")
+
+[node name="Line" parent="." instance=ExtResource("2_42vjs")]
+
+[node name="ObjectRow" parent="." instance=ExtResource("3_iann1")]
+position = Vector2(0, 16)
+
+[node name="PatternRow" parent="." instance=ExtResource("3_iann1")]
+position = Vector2(0, 64)

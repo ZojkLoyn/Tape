@@ -1,0 +1,14 @@
+[gd_scene load_steps=6 format=3 uid="uid://do8jigqc1t4d7"]
+
+[ext_resource type="Script" path="res://RowGeneration.cs" id="1_o74nw"]
+[ext_resource type="PackedScene" uid="uid://dpxidlggchga8" path="res://element/Left.tscn" id="2_tjyy5"]
+[ext_resource type="PackedScene" uid="uid://da5563a23us15" path="res://element/Right.tscn" id="3_2ycvy"]
+[ext_resource type="PackedScene" uid="uid://2ncffwv5k3jl" path="res://element/Middle.tscn" id="4_qp2av"]
+[ext_resource type="PackedScene" uid="uid://cij4hljb1af12" path="res://element/Single.tscn" id="5_ct08j"]
+
+[node name="Row" type="Node2D"]
+script = ExtResource("1_o74nw")
+left = ExtResource("2_tjyy5")
+right = ExtResource("3_2ycvy")
+middle = ExtResource("4_qp2av")
+single = ExtResource("5_ct08j")

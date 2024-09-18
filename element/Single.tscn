@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cij4hljb1af12"]
+
+[ext_resource type="TileSet" uid="uid://xkuylduc7tq4" path="res://kenney_1-bit-platformer-pack/Tilemap/base_tile.tres" id="1_5kmba"]
+
+[node name="Single" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 13, 0, 8, 0, 0, 0)
+tile_set = ExtResource("1_5kmba")
